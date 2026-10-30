@@ -135,6 +135,6 @@ html.anx-immersive [class*="renderTargetWrapper"] {
   console.log('[anx-weread] injected');
 })();
 '''
-        .replace('__CSS__', jsonEncode(css));
+        .replaceAll('__CSS__', jsonEncode(css));
   }
 }
